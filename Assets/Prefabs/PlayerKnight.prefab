@@ -1685,6 +1685,7 @@ GameObject:
   - component: {fileID: 5549302352192324889}
   - component: {fileID: 1015306252721676801}
   - component: {fileID: 6526964829248203595}
+  - component: {fileID: 5418035346731005756}
   m_Layer: 0
   m_Name: PlayerKnight
   m_TagString: Untagged
@@ -1737,6 +1738,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <InputReader>k__BackingField: {fileID: 5549302352192324889}
+  <Controller>k__BackingField: {fileID: 5418035346731005756}
+  <FreeLookMovementSpeed>k__BackingField: 6
 --- !u!95 &6526964829248203595
 Animator:
   serializedVersion: 4
@@ -1757,6 +1760,24 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!143 &5418035346731005756
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5852335361489437320}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 1.75
+  m_Radius: 0.25
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.025
+  m_MinMoveDistance: 0
+  m_Center: {x: 0, y: 0.875, z: 0}
 --- !u!1 &5977338061806690771
 GameObject:
   m_ObjectHideFlags: 0
